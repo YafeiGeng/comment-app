@@ -6,10 +6,8 @@ class Comment extends React.Component {
             <div className='comment'>
                 <div className='comment-user'>
                     <span>{this.props.comment.username}</span>:
-                    <div>
-                        <p>{this.props.comment.content}</p>
-                    </div>
                 </div>
+                    <p>{this.props.comment.content}</p>
             </div>
         )
     }
