@@ -23,7 +23,7 @@ class CommentInput extends React.Component {
 
     handleSubmit=()=>{
         if(this.props.onSubmit){
-            const {username,content}=this.state
+            const {username,content}=this.state;
             this.props.onSubmit({username,content})
         }
         this.setState({content:''})
